@@ -4,7 +4,7 @@ bloomfilter.go
 A Bloom Filter Implementation in Go
 
 This implementation includes:
-- Standard Bloom Filter
+- Standard Bloom Filter.
 - Counting Bloom Filter
   Standard Bloom Filter, except that it supports deletions, by keeping 8-bit counters in each slot. These counters
   are likely to overflow if we add too many elements.
